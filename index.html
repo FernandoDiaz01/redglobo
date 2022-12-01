@@ -1,258 +1,354 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Red Globo</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/41bcea2ae3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- CSS only -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
-</head>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+  </head>
 
-<body>
-
+  <body>
     <header class="header">
-    <div class="logo">
-       <img src="/images/3.png" alt="logo">
-    </div>
-    
-    <nav>
-    <ul class="links">
-        
-       <li class="style-li"><a id="instagram" class="text" href="https://www.instagram.com/red.globo/" target="_blank"></a></li>
-        <li class="style-li"><a id="wpp" class="text" href="https://wa.me/2615750680?text=Me%20gustaría%20saber%20el%20precio%20de%" target="_blank"></a></li>
-        <li class="style-li"><a id="facebook" class="text" href="https://www.facebook.com/redglobomza" target="_blank"></a></li>
-        <li class="style-li"><a id="about__us" class="text" href="#contacto"> Sobre Nosotros</a></li>
-    </ul>
-    </nav>
-    <a href="https://wa.me/2615750680?text=Me%20gustaría%20saber%20el%20precio%20de" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+      <div class="logo">
+        <a href="./index.html"><img src="/images/3.1.png" alt="logo" /></a>
+      </div>
 
-</header>    
-
-<!--Dropdown menu-->
-<div class="container__menu">
-
-  <div class="menu">
-      <input type="checkbox" id="check__menu">
-      <label for="check__menu" id="label__check" >
-          <i class="fas fa-bars icon__menu"></i>
-      </label>
       <nav>
+        <ul class="links">
+          <li class="style-li">
+            <a
+              id="instagram"
+              class="text"
+              href="https://www.instagram.com/red.globo/"
+              target="_blank"
+            ></a>
+          </li>
+          <li class="style-li">
+            <a
+              id="wpp"
+              class="text"
+              href="https://wa.me/2615750680?text=Me%20gustaría%20saber%20el%20precio%20de%"
+              target="_blank"
+            ></a>
+          </li>
+          <li class="style-li">
+            <a
+              id="facebook"
+              class="text"
+              href="https://www.facebook.com/redglobomza"
+              target="_blank"
+            ></a>
+          </li>
+          <li class="style-li">
+            <a id="about__us" class="text" href="#contacto"> Sobre Nosotros</a>
+          </li>
+        </ul>
+      </nav>
+      <a
+        href="https://wa.me/2615750680?text=Me%20gustaría%20saber%20el%20precio%20de"
+        class="whatsapp"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i
+      ></a>
+    </header>
+
+    <!--Dropdown menu-->
+    <div class="container__menu">
+      <div class="menu">
+        <input type="checkbox" id="check__menu" />
+        <label for="check__menu" id="label__check">
+          <i class="fas fa-bars icon__menu"></i>
+        </label>
+        <nav>
           <ul>
             <div class="home">
-              <li><a  href="#" id="selected"></a></li>
+              <li><a href="/index.html" id="selected"></a></li>
             </div>
-              <li><a href="#">Servicios</a>
-                  <ul>
-                      <li><a href="#">Diseño Web</a></li>
-                      <li><a href="#">Diseño Gráfico</a></li>
-                      <li><a href="#">Ordenadores</a></li>
-                      <li><a href="#">Servidores</a></li>
-                      <li><a href="#">Analista</a></li>
-                  </ul>
-              </li>
-              <li><a href="#">Nosotros</a>
-                  <ul>
-                      <li><a href="#">Diseño Web</a></li>
-                      <li><a href="#">Diseño Gráfico</a></li>
-                      <li><a href="#">Ordenadores</a></li>
-                      <li><a href="#">Servidores</a></li>
-                      <li><a href="#">Analista</a></li>
-                  </ul></li>
-              <li><a href="#">Blog</a>
-                  <ul>
-                      <li><a href="#">Diseño Web</a></li>
-                      <li><a href="#">Diseño Gráfico</a></li>
-                      <li><a href="#">Ordenadores</a></li>
-                      <li><a href="#">Servidores</a></li>
-                      <li><a href="#">Analista</a></li>
-                  </ul></li>
-              <li><a href="#">Contacto</a>
-                  <ul>
-                      <li><a href="#">Diseño Web</a></li>
-                      <li><a href="#">Diseño Gráfico</a></li>
-                      <li><a href="#">Ordenadores</a></li>
-                      <li><a href="#">Servidores</a></li>
-                      <li><a href="#">Analista</a></li>
-                  </ul></li>
-              <li><a href="#">Cursos</a>
-                  <ul>
-                      <li><a href="#">Diseño Web</a></li>
-                      <li><a href="#">Diseño Gráfico</a></li>
-                      <li><a href="#">Ordenadores</a></li>
-                      <li><a href="#">Servidores</a></li>
-                      <li><a href="#">Analista</a></li>
-                  </ul></li>
+            <li>
+              <a href="./pages/carton.html">Cartón</a>
+              <ul>
+                <li><a href="#">Bolsas</a></li>
+                <li><a href="#">Bandejas</a></li>
+                <li><a href="#">Para Panchos</a></li>
+                <li><a href="#">Papel</a></li>
+                <li><a href="#">Cajas</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./pages/plasticos.html">Plasticos</a>
+              <ul>
+                <li><a href="#">Bolsas</a></li>
+                <li><a href="#">Vasos</a></li>
+                <li><a href="#">film</a></li>
+                <li><a href="#">Pret</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./pages/telgopor.html">Telgopor</a>
+              <ul>
+                <li><a href="#">Vasos</a></li>
+                <li><a href="#">Bandeja</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+              <ul>
+                <li><a href="#">Diseño Web</a></li>
+                <li><a href="#">Diseño Gráfico</a></li>
+                <li><a href="#">Ordenadores</a></li>
+                <li><a href="#">Servidores</a></li>
+                <li><a href="#">Analista</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Cursos</a>
+              <ul>
+                <li><a href="#">Diseño Web</a></li>
+                <li><a href="#">Diseño Gráfico</a></li>
+                <li><a href="#">Ordenadores</a></li>
+                <li><a href="#">Servidores</a></li>
+                <li><a href="#">Analista</a></li>
+              </ul>
+            </li>
           </ul>
-      </nav>
-  </div>
-
- </div>
-
- 
-<!-- Carrousel -->
-<div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      
-      <img src="images/1.png" style="width:100% ; height: 400px;">
-     
+        </nav>
+      </div>
     </div>
-  
-    <div class="mySlides fade">
-      
-      <img src="/images/2.png" style="width:100% ; height: 400px;">
-     
-    </div>
-  
-    <div class="mySlides fade">
-      
-      <img src="/images/3.png" style="width:100% ; height:400px" >
-     
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
 
-  
-<!--   Cards de productos -->
+    <!-- Carrousel -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="/images/1.jpg" style="width: 100%; height: 100vh" />
+      </div>
 
-    <div id="img-1" class="container-product"> 
+      <div class="mySlides fade">
+        <img src="/images/2.jpg" style="width: 100%; height: 100vh" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/images/3.jpg" style="width: 100%; height: 100vh" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/images/4.jpg" style="width: 100%; height: 100vh" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/images/5.jpg" style="width: 100%; height: 100vh" />
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!--   Cards de productos -->
+
+    <div id="img-1" class="container-product">
       <div class="product">
         <a href="/detalle-producto/detalle-producto.html">
-          <img class="img" src="./images/imgnueva.png"  alt="imagen del producto"/>
-          <span class="img-description"  href="/detalle-producto/detalle-producto.html">descartable</span>
+          <img
+            class="img"
+            src="./images/imgnueva.png"
+            alt="imagen del producto"
+          />
+          <span
+            class="img-description"
+            href="/detalle-producto/detalle-producto.html"
+            >descartable</span
+          >
         </a>
-           
       </div>
       <div class="product">
-           <img class="img" src="./images/imgnueva.png" alt="imagen del producto"/>
-           <a class="img-description" href="#">descartable</a>
+        <img
+          class="img"
+          src="./images/imgnueva.png"
+          alt="imagen del producto"
+        />
+        <a class="img-description" href="#">descartable</a>
       </div>
-        <div class="product">
-            <img class="img" src="./images/imgnueva.png" alt="imagen del producto"/>
-           <a class="img-description" href="#">test</a>
-       </div>
       <div class="product">
-           <img class="img" src="./images/imgnueva.png" alt="imagen del producto"/>
-           <a class="img-description" href="#">test</a>
-     </div>
-     <div class="product">
-           <img class="img" src="./images/imgnueva.png" alt="imagen del producto"/>
-           <a class="img-description" href="#">test</a>
-     </div>
-    <div class="product">
-          <img class="img" src="./images/imgnueva.png" alt="imagen del producto"/>
-         <a class="img-description" href="#">test</a>
-    </div>
-    
-    </div>
-<br>
-<!--  About us -->
-
-
-<div id="contacto" class="container-about-us">
-  <img class="img-about-us" src="./images/2.png" alt="#" >
-  <h2 class="title"> Sobre Nosotros</h2>
-  <p class="text-about-us">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, inventore laborum distinctio aperiam et blanditiis, adipisci mollitia fugiat voluptatum est molestiae hic earum nisi ullam nulla, nesciunt reiciendis suscipit quasi!
-  Voluptatibus veritatis dolorem doloremque aliquam quaerat ipsum voluptas excepturi dolorum sunt quisquam. Rerum voluptatibus incidunt quae sunt nihil, molestias tempore, mollitia, non minus quidem qui illum fugit aperiam consequatur ex!
-  Deserunt eos ea blanditiis, quia consequuntur voluptates ullam vel minima explicabo, eaque magni eveniet adipisci repellat provident beatae excepturi? Quaerat deleniti cum, minima dolorum voluptates alias et repudiandae ducimus blanditiis?</p>
-
-</div>
-
-<br>
-
-
-<div class="principal-container" >
-
-<div class="container-img">
-  <img class="img-services" src="./images/Saved Pictures/atencionalcliente1.png" alt="">
-  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate obcaecati non eos hic minima nostrum at aliquid accusamus incidunt!</p>
-</div>
-    
-  
-
-<div class="container-img">
-  <img class="img-services" src="./images/Saved Pictures/entrega-a-domicilio.png" alt="">
-  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate obcaecati non eos hic minima nostrum at aliquid accusamus incidunt!</p>
-</div>
-
-
-<div class="container-img">
-  <img class="img-services" src="./images/Saved Pictures/grow-shop.png" alt="">
-  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate obcaecati non eos hic minima nostrum at aliquid accusamus incidunt!</p>
-</div>
-
-</div>
-
-
-<footer class="footer">
-  <div class="grupo-1">
-    <div class="box">
-      <figure>
-        <a href="#">
-          <img src="./images/3.png" alt="">
-        </a>
-      </figure>
-    </div>
-    <div class="box">
-      <p class="fa fa-phone"> 1234515214321</p>
-      <p class="fa fa-map-marker">Ubicacion del local</p>
-    </div>
-    
-    <div class="box">
-      <h2>Siguenos</h2>
-      <div class="red-social">
-        <a href="https://www.facebook.com/redglobomza" target="_blank" class="fa fa-facebook"></a>
-        <a href="https://www.instagram.com/red.globo/" target="_blank" class="fa fa-instagram"></a>
+        <img
+          class="img"
+          src="./images/imgnueva.png"
+          alt="imagen del producto"
+        />
+        <a class="img-description" href="#">test</a>
+      </div>
+      <div class="product">
+        <img
+          class="img"
+          src="./images/imgnueva.png"
+          alt="imagen del producto"
+        />
+        <a class="img-description" href="#">test</a>
+      </div>
+      <div class="product">
+        <img
+          class="img"
+          src="./images/imgnueva.png"
+          alt="imagen del producto"
+        />
+        <a class="img-description" href="#">test</a>
+      </div>
+      <div class="product">
+        <img
+          class="img"
+          src="./images/imgnueva.png"
+          alt="imagen del producto"
+        />
+        <a class="img-description" href="#">test</a>
       </div>
     </div>
-  </div>
-  <div class="grupo-2">
-    <small>&copy; 2021 <b>Red Globo</b> - Todos los derechos reservados.</small>
-  </div>
-</footer>
+    <br />
+    <!--  About us -->
 
+    <div id="contacto" class="container-about-us">
+      <img class="img-about-us" src="./images/2.png" alt="#" />
+      <h2 class="title">Sobre Nosotros</h2>
+      <p class="text-about-us">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+        inventore laborum distinctio aperiam et blanditiis, adipisci mollitia
+        fugiat voluptatum est molestiae hic earum nisi ullam nulla, nesciunt
+        reiciendis suscipit quasi! Voluptatibus veritatis dolorem doloremque
+        aliquam quaerat ipsum voluptas excepturi dolorum sunt quisquam. Rerum
+        voluptatibus incidunt quae sunt nihil, molestias tempore, mollitia, non
+        minus quidem qui illum fugit aperiam consequatur ex! Deserunt eos ea
+        blanditiis, quia consequuntur voluptates ullam vel minima explicabo,
+        eaque magni eveniet adipisci repellat provident beatae excepturi?
+        Quaerat deleniti cum, minima dolorum voluptates alias et repudiandae
+        ducimus blanditiis?
+      </p>
+    </div>
 
-<script type="module" src="index.js" ></script>
- <script >
-    let slideIndex = 1;
-showSlides(slideIndex);
+    <br />
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+    <div class="principal-container">
+      <div class="container-img">
+        <img
+          class="img-services"
+          src="./images/Saved Pictures/atencionalcliente1.png"
+          alt=""
+        />
+        <p class="text-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          cupiditate obcaecati non eos hic minima nostrum at aliquid accusamus
+          incidunt!
+        </p>
+      </div>
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+      <div class="container-img">
+        <img
+          class="img-services"
+          src="./images/Saved Pictures/entrega-a-domicilio.png"
+          alt=""
+        />
+        <p class="text-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          cupiditate obcaecati non eos hic minima nostrum at aliquid accusamus
+          incidunt!
+        </p>
+      </div>
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
- </script>
+      <div class="container-img">
+        <img
+          class="img-services"
+          src="./images/Saved Pictures/grow-shop.png"
+          alt=""
+        />
+        <p class="text-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          cupiditate obcaecati non eos hic minima nostrum at aliquid accusamus
+          incidunt!
+        </p>
+      </div>
+    </div>
 
+    <footer class="footer">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="./images/3.png" alt="" />
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <p class="fa fa-phone">1234515214321</p>
+          <p class="fa fa-map-marker">Ubicacion del local</p>
+        </div>
 
-</body>
+        <div class="box">
+          <h2>Siguenos</h2>
+          <div class="red-social">
+            <a
+              href="https://www.facebook.com/redglobomza"
+              target="_blank"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/red.globo/"
+              target="_blank"
+              class="fa fa-instagram"
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2021 <b>Red Globo</b> - Todos los derechos reservados.</small
+        >
+      </div>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
 </html>
