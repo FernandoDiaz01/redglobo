@@ -1,0 +1,35 @@
+{
+"platos":
+[
+    {
+        "description":"plato de carton",
+        "image":"./img-carton/platocarton1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },
+    {
+        "description":"plato de carton",
+        "image":"./img-carton/platocarton1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },  
+    {
+        "description":"plato de carton",
+        "image":"./img-carton/platocarton1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },  
+    {
+        "description":"plato de carton",
+        "image":"./img-carton/platocarton1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },
+    {
+        "description":"plato de carton",
+        "image":"./img-carton/platocarton1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },
+    {
+        "description":"plato de carton",
+        "image":"./img-carton/platocarton1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    }
+    
+]}

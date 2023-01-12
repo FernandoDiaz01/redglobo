@@ -1,0 +1,36 @@
+{
+    "bandeja": [    
+{
+    "description":"bandeja de plasticos",
+    "image":"./img-plasticos/bandejaplastico1.png",
+    "detalleProducto":"/detalle-producto/detalle-producto.html"
+},
+{
+    "description":"bandeja de plasticos",
+    "image":"./img-plasticos/bandejaplastico1.png",
+    "detalleProducto":"/detalle-producto/detalle-producto.html"
+},  
+{
+    "description":"bandeja de plasticos",
+    "image":"./img-plasticos/bandejaplastico1.png",
+    "detalleProducto":"/detalle-producto/detalle-producto.html"
+},  
+{
+    "description":"bandeja de plasticos",
+    "image":"./img-plasticos/bandejaplastico1.png",
+    "detalleProducto":"/detalle-producto/detalle-producto.html"
+},
+{
+    "description":"bandeja de plasticos",
+    "image":"./img-plasticos/bandejaplastico1.png",
+    "detalleProducto":"/detalle-producto/detalle-producto.html"
+},
+{
+    "description":"bandeja de plasticos",
+    "image":"./img-plasticos/bandejaplastico1.png",
+    "detalleProducto":"/detalle-producto/detalle-producto.html"
+}
+    
+]
+
+}

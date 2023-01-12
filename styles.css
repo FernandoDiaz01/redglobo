@@ -455,6 +455,15 @@ nav ul li ul li a:hover {
   opacity: 0.8;
 }
 
+
+/* google maps */
+
+.google-maps{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*******Footer******/
 
 .footer {

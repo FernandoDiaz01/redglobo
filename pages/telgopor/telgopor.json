@@ -1,0 +1,35 @@
+{
+    "bandeja":
+    [
+    {
+        "description":"bandeja de telgopor",
+        "image":"./img-telgopor/bandejatelgopor1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },
+    {
+        "description":"bandeja de telgopor",
+        "image":"./img-telgopor/bandejatelgopor1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },  
+    {
+        "description":"bandeja de telgopor",
+        "image":"./img-telgopor/bandejatelgopor1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },  
+    {
+        "description":"bandeja de telgopor",
+        "image":"./img-telgopor/bandejatelgopor1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },
+    {
+        "description":"bandeja de telgopor",
+        "image":"./img-telgopor/bandejatelgopor1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    },
+    {
+        "description":"bandeja de telgopor",
+        "image":"./img-telgopor/bandejatelgopor1.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
+    }
+    
+]}

@@ -2,28 +2,35 @@
  [
     {
         "description":"descartable",
-        "image":"./images/imgnueva.png"
+        "image":"./images/imgnueva.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
     },
     {
         "description":"bandeja de plastico",
-        "image":"./images/imgnueva.png"
+        "image":"./images/imgnueva.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
     },
     {
         "description":"bandeja de plastico",
-        "image":"./images/imgnueva.png"
+        "image":"./images/imgnueva.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
     },
     {
         "description":"bandeja de plastico",
-        "image":"./images/imgnueva.png"
+        "image":"./images/imgnueva.png",
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
     },
     {
         "description":"bandeja de plastico",
-        "image":"./images/imgnueva.png"
+        "image":"./images/imgnueva.png", 
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
     },
     {
         "description":"bandeja de plastico",
-        "image":"./images/imgnueva.png"
+        "image":"./images/imgnueva.png", 
+        "detalleProducto":"/detalle-producto/detalle-producto.html"
     }
+    
 ]
 
 
