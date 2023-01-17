@@ -455,10 +455,9 @@ nav ul li ul li a:hover {
   opacity: 0.8;
 }
 
-
 /* google maps */
 
-.google-maps{
+.google-maps {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -554,4 +553,11 @@ nav ul li ul li a:hover {
     grid-gap: 30px;
     padding: 35px 0px;
   }
+}
+
+h5 {
+  text-align: center;
+  margin: 1em;
+  font-size: 35px;
+  color: #000;
 }

@@ -1,9 +1,9 @@
-import plasticos from "./plasticos.json" assert{type:"json"};
+import plasticos from "./plasticos.json" assert { type: "json" };
 
 /* cards de plasticos */
 
-
-document.getElementById("img-1").innerHTML = plasticos.bandeja.map(product => `
+document.getElementById("img-1").innerHTML = plasticos.bandeja.map(
+  (product) => `
 <div class="product">
 <a href=${product.detalleProducto} target="_blank">
   <img
@@ -17,4 +17,59 @@ document.getElementById("img-1").innerHTML = plasticos.bandeja.map(product => `
     >${product.description}</span
   >
 </a>
-</div>` )
+</div>`
+);
+
+document.getElementById("img-2").innerHTML = plasticos.bandeja.map(
+  (product) => `
+<div class="product">
+<a href=${product.detalleProducto} target="_blank">
+  <img
+    class="img"
+    src=${product.image}  
+    alt="imagen del producto"
+  />
+  <span
+    class="img-description"
+    href=${product.detalleProducto}
+    >${product.description}</span
+  >
+</a>
+</div>`
+);
+
+document.getElementById("img-3").innerHTML = plasticos.bandeja.map(
+  (product) => `
+<div class="product">
+<a href=${product.detalleProducto} target="_blank">
+  <img
+    class="img"
+    src=${product.image}  
+    alt="imagen del producto"
+  />
+  <span
+    class="img-description"
+    href=${product.detalleProducto}
+    >${product.description}</span
+  >
+</a>
+</div>`
+);
+
+document.getElementById("img-4").innerHTML = plasticos.bandeja.map(
+  (product) => `
+<div class="product">
+<a href=${product.detalleProducto} target="_blank">
+  <img
+    class="img"
+    src=${product.image}  
+    alt="imagen del producto"
+  />
+  <span
+    class="img-description"
+    href=${product.detalleProducto}
+    >${product.description}</span
+  >
+</a>
+</div>`
+);
